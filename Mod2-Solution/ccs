@@ -1,0 +1,130 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	box-sizing:border-box;
+	margin: 0;
+	padding: 0;
+
+}
+
+body {
+	border-top:3px solid #333;
+	border-left:3px solid #333;
+	border-right:3px solid #333;
+	
+}
+
+h1 {
+	font:bold 1.75em Verdana, Geneva, sans-serif;
+	text-align:center;
+}
+
+section {
+	margin-right: 20px;
+	
+}
+ 
+div {
+	margin-left:20px;
+	margin-bottom:20px;
+	background-color:#999;
+	border:3px solid #333;
+}
+
+div > p {
+	font:bold 0.9em Arial, Helvetica, sans-serif;
+	margin-bottom:0px;
+	padding:10px 10px 0px 10px;
+	clear:both;
+}	
+
+
+
+h2 {
+	font:bold 1.25em Verdana, Geneva, sans-serif;
+	text-align:center;	
+	width:100px;
+	margin:0px 0px;
+	padding:5px;
+	border-left:3px solid #333;
+	border-bottom:3px solid #333;
+	float: right;
+}
+
+#h2-1 {
+	background-color: #d59898;
+}
+
+#h2-2 {
+	background-color: #c14543;
+}
+
+#h2-3 {
+	background-color: #e5d198;
+}
+
+footer > p {
+	clear:both;
+}
+
+#myfooter {
+	font:bold 1.1em  Verdana, Geneva, sans-serif;
+	text-align:right;
+	background-color: #999;
+	border-top:3px solid #333;
+	border-bottom:3px solid #333;
+	clear:both;
+}
+
+@media (min-width: 992px) {
+	h1 {
+		margin-top: 20px;
+		margin-bottom: 50px;
+	}
+
+	div {
+		width:31.25%;
+		float:left;
+	}
+
+	footer > p {
+		margin:80px auto;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	h1 {
+		margin-top: 20px;
+		margin-bottom: 25px;
+	}
+	
+	div {
+		float:left;
+	}	
+	
+	#div1 {
+		width:47.3%;
+	}
+	#div2 {
+		width:47.3%;
+	}
+	#div3 {
+		width:97%;
+	}
+	footer > p {
+	margin:30px auto;
+	}
+}
+
+@media (max-width: 768px) {
+	h1 {
+		margin-top: 20px;
+		margin-bottom: 15px;
+	}
+	
+	div {
+		width:97%
+	}
+
+}
