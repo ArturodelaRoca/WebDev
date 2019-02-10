@@ -1,1 +1,1 @@
-goodbyeSpeaker.speak();
+//goodbyeSpeaker.speak();
